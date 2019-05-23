@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomControlsDemo.Controls.MyCustomControl">
+    <ContentView.Content>
+        <StackLayout>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Hello "/>
+                        <Span x:Name="Person"></Span>
+                        <Span Text=", and congratulations on your first custom control"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
